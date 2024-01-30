@@ -10,7 +10,7 @@ permissions:
 jobs:
   formatting-check:
     name: Formatting Check
-    runs-on: [animas]
+    runs-on: [self-hosted]
 
     steps:
       - name: Checkout code
